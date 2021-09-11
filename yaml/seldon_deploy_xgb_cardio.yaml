@@ -1,0 +1,14 @@
+apiVersion: machinelearning.seldon.io/v1alpha2
+kind: SeldonDeployment
+metadata:
+  name: xgboost
+spec:
+  name: cardio_xgb
+  predictors:
+    - graph:
+        children: []
+        implementation: XGBOOST_SERVER
+        modelUri: pvc://seldon-pv-claim
+        name: classifier
+      name: default
+      replicas: 1
