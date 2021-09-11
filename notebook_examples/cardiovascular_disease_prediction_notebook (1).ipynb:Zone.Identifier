@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=http://172.23.180.10:30698/user/admin/notebooks/cardiovascular_disease_prediction_notebook.ipynb
+HostUrl=http://172.23.180.10:30698/user/admin/nbconvert/notebook/cardiovascular_disease_prediction_notebook.ipynb?download=true
